@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>برق الحديدة للاستثمار | Baraq Al-Hadidiyya Investment</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="light-mode" data-lang="ar">
+    <!-- Language & Theme Toggle -->
+    <div class="theme-language-bar">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center py-2">
+          <div class="theme-toggle">
+            <button class="theme-btn" id="themeToggle">
+              <i class="fas fa-moon"></i>
+              <span data-lang="ar">الوضع الغامق</span>
+              <span data-lang="en">Dark Mode</span>
+            </button>
+          </div>
+          <div class="language-toggle">
+            <button class="lang-btn" id="languageToggle">
+              <i class="fas fa-globe"></i>
+              <span data-lang="ar">English</span>
+              <span data-lang="en">العربية</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-bolt me-2"></i>
+          <span data-lang="ar">برق الحديدة للاستثمار</span>
+          <span data-lang="en">Baraq Al-Hadidiyya Investment</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">
+                <span data-lang="ar">الرئيسية</span>
+                <span data-lang="en">Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">
+                <span data-lang="ar">من نحن</span>
+                <span data-lang="en">About Us</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">
+                <span data-lang="ar">خدماتنا</span>
+                <span data-lang="en">Services</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements">
+                <span data-lang="ar">إنجازاتنا</span>
+                <span data-lang="en">Achievements</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">
+                <span data-lang="ar">اتصل بنا</span>
+                <span data-lang="en">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-6">
+            <h1 class="display-4 fw-bold mb-4">
+              <span data-lang="ar">برق الحديدة للاستثمار</span>
+              <span data-lang="en">Baraq Al-Hadidiyya Investment</span>
+            </h1>
+            <p class="lead mb-4">
+              <span data-lang="ar"
+                >شركة رائدة في مجال التجارة العامة والإنشاءات وإدارة العقارات
+                منذ 1992</span
+              >
+              <span data-lang="en"
+                >A leading company in general trade, construction, and real
+                estate management since 1992</span
+              >
+            </p>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="stat-box">
+                  <h3>30+</h3>
+                  <p>
+                    <span data-lang="ar">عاماً من الخبرة</span>
+                    <span data-lang="en">Years of Experience</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="stat-box">
+                  <h3>22</h3>
+                  <p>
+                    <span data-lang="ar">مشروع مكتمل</span>
+                    <span data-lang="en">Completed Projects</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="stat-box">
+                  <h3>15</h3>
+                  <p>
+                    <span data-lang="ar">عميل مميز</span>
+                    <span data-lang="en">Distinguished Clients</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-primary btn-lg mt-4">
+              <span data-lang="ar">تواصل معنا</span>
+              <span data-lang="en">Contact Us</span>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <!-- يمكن إضافة صورة هنا -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="section-title">
+              <span data-lang="ar">من نحن</span>
+              <span data-lang="en">About Us</span>
+            </h2>
+            <p class="lead">
+              <span data-lang="ar"
+                >تأسست شركة برق الحديدة للاستثمار عام 1992 لتكون من الشركات
+                الرائدة في مجال التجارة العامة والإنشاءات وإدارة وتأجير
+                العقارات.</span
+              >
+              <span data-lang="en"
+                >Baraq Al-Hadidiyya Investment was established in 1992 to be one
+                of the leading companies in general trade, construction, and
+                real estate management.</span
+              >
+            </p>
+            <p>
+              <span data-lang="ar"
+                >مع خبرة تزيد عن الثلاثين عاماً تستطيع برق الحديدة للاستثمار
+                تقديم الخدمات المواكبة للتطور ووفقاً لرؤية المملكة 2030.</span
+              >
+              <span data-lang="en"
+                >With over thirty years of experience, Baraq Al-Hadidiyya
+                Investment can provide services that keep pace with development
+                and in accordance with Saudi Vision 2030.</span
+              >
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="section-title">
+              <span data-lang="ar">رؤيتنا</span>
+              <span data-lang="en">Our Vision</span>
+            </h2>
+            <ul class="vision-list">
+              <li>
+                <i class="fas fa-check"></i>
+                <span data-lang="ar">أن نكون معياراً عالمياً</span>
+                <span data-lang="en">To be a global standard</span>
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                <span data-lang="ar">الأكثر موثوقية لعملائنا</span>
+                <span data-lang="en">Most reliable for our clients</span>
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                <span data-lang="ar">زيادة قيمة منتجاتنا وخدماتنا</span>
+                <span data-lang="en"
+                  >Increase value of our products and services</span
+                >
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                <span data-lang="ar">تنويع قاعدة المنتجات</span>
+                <span data-lang="en">Diversify product base</span>
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                <span data-lang="ar">التوسع الجغرافي</span>
+                <span data-lang="en">Geographical expansion</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding bg-light">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">
+          <span data-lang="ar">خدماتنا</span>
+          <span data-lang="en">Our Services</span>
+        </h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="service-card">
+              <i class="fas fa-industry"></i>
+              <h4>
+                <span data-lang="ar">الحديد</span>
+                <span data-lang="en">Iron & Steel</span>
+              </h4>
+              <p>
+                <span data-lang="ar"
+                  >البيع بالجملة لشرائح وسبحونات الحديد وجميع أنواع الحديد</span
+                >
+                <span data-lang="en"
+                  >Wholesale of iron sheets, beams, and all types of iron</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="service-card">
+              <i class="fas fa-building"></i>
+              <h4>
+                <span data-lang="ar">الإنشاءات</span>
+                <span data-lang="en">Construction</span>
+              </h4>
+              <p>
+                <span data-lang="ar"
+                  >الإنشاءات العامة للمباني السكنية والحكومية والخدمية</span
+                >
+                <span data-lang="en"
+                  >General construction of residential, government, and service
+                  buildings</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="service-card">
+              <i class="fas fa-shopping-cart"></i>
+              <h4>
+                <span data-lang="ar">التجارة العامة</span>
+                <span data-lang="en">General Trade</span>
+              </h4>
+              <p>
+                <span data-lang="ar"
+                  >البيع بالجملة للأغذية والمشروبات والفواكه والخضروات</span
+                >
+                <span data-lang="en"
+                  >Wholesale of food, beverages, fruits, and vegetables</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="service-card">
+              <i class="fas fa-home"></i>
+              <h4>
+                <span data-lang="ar">إدارة العقارات</span>
+                <span data-lang="en">Real Estate</span>
+              </h4>
+              <p>
+                <span data-lang="ar"
+                  >إدارة وتأجير العقارات المملوكة أو المؤجرة</span
+                >
+                <span data-lang="en"
+                  >Management and leasing of owned or rented properties</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section-padding">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">
+          <span data-lang="ar">إنجازاتنا</span>
+          <span data-lang="en">Our Achievements</span>
+        </h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="achievement-item">
+              <i class="fas fa-calendar-alt"></i>
+              <h3>30+</h3>
+              <p>
+                <span data-lang="ar">سنة خبرة</span>
+                <span data-lang="en">Years Experience</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="achievement-item">
+              <i class="fas fa-project-diagram"></i>
+              <h3>22</h3>
+              <p>
+                <span data-lang="ar">مشروع مكتمل</span>
+                <span data-lang="en">Completed Projects</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="achievement-item">
+              <i class="fas fa-users"></i>
+              <h3>15</h3>
+              <p>
+                <span data-lang="ar">عميل مميز</span>
+                <span data-lang="en">Distinguished Clients</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-dark text-white">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">
+          <span data-lang="ar">اتصل بنا</span>
+          <span data-lang="en">Contact Us</span>
+        </h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="contact-info text-center">
+              <div class="contact-item mb-4">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>
+                  <span data-lang="ar">العنوان</span>
+                  <span data-lang="en">Address</span>
+                </h4>
+                <p>
+                  <span data-lang="ar"
+                    >مكتب رقم 12 - الدور الرابع - مركز السليمان – جدة –
+                    السعودية</span
+                  >
+                  <span data-lang="en"
+                    >Office No. 12 - 4th Floor - Al-Sulaiman Center - Jeddah -
+                    Saudi Arabia</span
+                  >
+                </p>
+              </div>
+              <div class="contact-item mb-4">
+                <i class="fas fa-phone"></i>
+                <h4>
+                  <span data-lang="ar">الهاتف</span>
+                  <span data-lang="en">Phone</span>
+                </h4>
+                <p><a href="tel:+966508654359">+966508654359</a></p>
+              </div>
+              <div class="contact-item mb-4">
+                <i class="fas fa-envelope"></i>
+                <h4>
+                  <span data-lang="ar">البريد الإلكتروني</span>
+                  <span data-lang="en">Email</span>
+                </h4>
+                <p>
+                  <a href="mailto:Salem.123.123@outlook.com"
+                    >Salem.123.123@outlook.com</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-darker text-white py-4">
+      <div class="container text-center">
+        <p>
+          <span data-lang="ar"
+            >&copy; 2025 برق الحديدة للاستثمار. جميع الحقوق محفوظة.</span
+          >
+          <span data-lang="en"
+            >&copy; 2025 Baraq Al-Hadidiyya Investment. All rights
+            reserved.</span
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
