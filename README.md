@@ -32,15 +32,13 @@
         - **Google Fonts** - Tajawal (Arabic) and Inter (English) fonts
 
         ## 📁 File Structure
-
-        ```
         baraq-al-hadidiyya/
         │
         ├── index.html # Main page (Single page)
         ├── style.css # Design styles and variables
         ├── script.js # Interactions and dynamic logic
         └── README.md # Documentation file (this file)
-        ```
+
 
         ## 🎯 Website Sections
 
